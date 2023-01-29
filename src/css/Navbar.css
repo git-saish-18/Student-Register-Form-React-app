@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+nav {
+  background-color: black;
+}
+ul {
+  display: flex;
+}
+li {
+  color: gold;
+  margin: 1rem 4rem;
+  font-size: large;
+  list-style: none;
+}
+a {
+  color: gold;
+  text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.MainAbout {
+  margin: 6rem 0rem 0rem 0rem;
+}
+h1.aboutheading {
+  font-style: italic;
+  font-family: emoji;
+  border: 6px solid;
+  padding: 1rem;
+  border-block-style: initial;
+  text-align: center;
+  color: lime;
+}
+.abouttext {
+  width: 54rem;
+  color: white;
+  margin: 3rem auto;
+  -webkit-text-stroke-width: thin;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-family: auto;
+}
+@media (max-width: 800px) {
+  .abouttext {
+    width: 90%;
+    margin: 2rem auto;
+    -webkit-text-stroke-width: thin;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: auto;
+  }
+  h1.aboutheading {
+    font-style: italic;
+    font-family: emoji;
+    border: 3px solid;
+    padding: 1rem;
+    border-block-style: initial;
+    text-align: center;
+  }
+}
